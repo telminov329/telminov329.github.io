@@ -1,0 +1,51 @@
+/*Подвал*/
+div.footer{margin: 0 auto; height: 30px; line-height: 30px;		/*убираем отступ снизу и текст по середине*/
+		  background-image : url(jhl/dark.png); height: 30px;		/*цвет меню*/
+		  border: 2px solid #700000;		/*окантовка*/
+		  border-left: none; border-right: none; margin-top: 30px;}
+div.footer span {margin: 0 20px;}
+
+
+
+/*Главное меню*/
+div.menu{background-image : url(jhl/dark.png); height: 20px;		/*цвет меню*/
+		border: 2px solid #700000;		/*окантовка*/
+		border-left: none; border-right: none; margin-bottom: 30px;}		/*убираем окантовку справа и слева*/
+		
+/*шапка сайта*/
+div.topmenu{float: right; height: 70px; line-height: 70px; 
+			text-shadow: 10px 5px 3px rgba(0,0,0,0.5);		/*тень текста*/
+			font-size: 32px; color:#800000;} 		/*размеры текста*/
+			
+/*структура сайта*/
+div.mid{width: 1000px; margin: 0 auto;}
+div.header{background-image : url(jhl/gray-scratone.png);}
+div.footer{margin: 20px 0; text-align: center; text-transform: uppercase;}
+
+a{text-decoration: none; color: black;}		/*Убрать все декорации у ссылок*/
+body{
+	background-image :url(jhl/white-scratone.png); margin: 0; pudding: 0;
+	font: 16px/24px Arial, Tahoma, sans-serif;}
+	
+	
+/*ячейки*/
+div.in{background-image : url(jhl/gray-scratone.png); height:580px; padding: 1px;}
+
+/*машины*/
+div.hj {
+    outline: 1px solid #696969; /* Чёрная рамка */
+	background: #C0C0C0;  padding: 10px;
+	margin: 10px; align: center; height: 155px;
+   }
+   
+   div.j {
+    outline: 1px solid #696969; /* Чёрная рамка */
+	background: #C0C0C0;  padding: 5px; 
+	margin:2px; align: center; width: 200px; margin-right:10px; margin-left:300px; width: 620px; height: 84px;
+	text-align: center; padding-top: 60px; font-size: 24px;}
+   
+div.h {
+	float: left; height: 170 px;} /* Чёрная рамка */
+	
+div.gvb {background: #C0C0C0; float: left; outline: 2px solid #696969; margin-left:30px; padding: 10px; padding-left: 20px; padding-right: 20px; }
+	

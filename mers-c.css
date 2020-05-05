@@ -1,0 +1,64 @@
+/*Подвал*/
+div.footer{margin: 0 auto; height: 30px; line-height: 30px;		/*убираем отступ снизу и текст по середине*/
+		  background-image : url(jhl/dark.png); height: 30px;		/*цвет меню*/
+		  border: 2px solid #700000;		/*окантовка*/
+		  border-left: none; border-right: none; margin-top: 30px;}
+div.footer span {margin: 0 20px;}
+
+
+
+/*Главное меню*/
+div.menu{background-image : url(jhl/dark.png); height: 20px;		/*цвет меню*/
+		border: 2px solid #700000;		/*окантовка*/
+		border-left: none; border-right: none; margin-bottom: 30px;}		/*убираем окантовку справа и слева*/
+		
+/*шапка сайта*/
+div.topmenu{float: right; height: 70px; line-height: 70px; 
+			text-shadow: 10px 5px 3px rgba(0,0,0,0.5);		/*тень текста*/
+			font-size: 32px; color:#800000;
+			height:10px;} 		/*размеры текста*/
+			
+/*структура сайта*/
+div.mid{width: 1000px; margin: 0 auto;}
+div.header{background-image : url(jhl/gray-scratone.png);}
+div.footer{margin: 20px 0; text-align: center; text-transform: uppercase;}
+
+a{text-decoration: none; color: black;}		/*Убрать все декорации у ссылок*/
+body{
+	background-image :url(jhl/white-scratone.png); margin: 0; pudding: 0;
+	font: 16px/24px Arial, Tahoma, sans-serif;}
+	
+	
+/*ячейки*/
+div.in{background-image : url(jhl/gray-scratone.png); height:1200px; padding: 1px;}
+
+/*машины*/
+div.hj {
+    outline: 1px solid #696969; /* Чёрная рамка */
+	background: #C0C0C0;  padding: 10px;
+	margin: 10px; align: center; height: 155px;
+   }
+   
+   div.j {
+    outline: 1px solid #696969; /* Чёрная рамка */
+	background: #C0C0C0;  padding: 5px; float: right; 
+	 width: 520px; margin-top: 20px; margin-right: 20px; }
+   
+div.h {
+	float: left; height: 170 px; margin: 10px;} /* Чёрная рамка */
+	
+div.gvb {background: #C0C0C0; float: left; outline: 2px solid #696969; margin-left:30px; padding: 10px; padding-left: 20px; padding-right: 20px; }
+
+div.htr { margin-left: 130px; margin-top: 300px; width: 300px;}
+div.ht { margin-left: 180px; margin-top: 30px; width: 600px;}
+div.fd {outline: 1px solid #696969; background: #C0C0C0; margin: 30px; padding: 10px;}
+div.webf {outline: 1px solid #696969; background: #C0C0C0; margin: 30px; padding: 10px;}
+div.web {outline: 1px solid #696969; background: #a9a9a9; margin: 5px; padding: 10px;}
+
+.scale {
+    transition: 1s; /* Время эффекта */
+   }
+   .scale:hover {
+   transform: scale(2);} /* Увеличиваем масштаб */
+	
+	

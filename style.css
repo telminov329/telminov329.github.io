@@ -1,0 +1,61 @@
+body{
+	background-image :url(jhl/white-scratone.png); margin: 0; pudding: 0;
+	font: 16px/24px Arial, Tahoma, sans-serif;}
+a{text-decoration: none;}		/*Убрать все декорации у ссылок*/
+
+/*структура сайта*/
+div.mid{width: 1000px; margin: 0 auto;}
+div.header{background-image : url(jhl/gray-scratone.png);}
+div.footer{margin: 20px 0; text-align: center; text-transform: uppercase;}
+
+/*шапка сайта*/
+div.topmenu{float: right; height: 70px; line-height: 70px; 
+			text-shadow: 10px 5px 3px rgba(0,0,0,0.5);		/*тень текста*/
+			font-size: 32px; color:#800000;} 		/*размеры текста*/
+			
+/*информация сайта*/
+div.info{height: 215px; width: 500px; margin-top: 30px; margin-left: 500px;
+		text-align: center;}
+div.info p{
+font-size:40px;
+color:#900000!important;
+text-shadow: 1px 1px 1px #000;
+}
+div.info {
+font-size:20px;
+color:#900000!important;
+text-shadow: 1px 1px 1px #000;}
+
+/*Главное меню*/
+div.menu{background-image : url(jhl/dark.png); height: 20px;		/*цвет меню*/
+		border: 2px solid #700000;		/*окантовка*/
+		border-left: none; border-right: none;}		/*убираем окантовку справа и слева*/
+
+/*Подвал*/
+div.footer{margin: 0 auto; height: 30px; line-height: 30px;		/*убираем отступ снизу и текст по середине*/
+		  background-image : url(jhl/dark.png); height: 30px;		/*цвет меню*/
+		  border: 2px solid #700000;		/*окантовка*/
+		  border-left: none; border-right: none; margin-top: 30px;}
+div.footer span {margin: 0 20px;}
+
+
+
+
+
+/*ячейки*/
+div.in{background-image : url(jhl/gray-scratone.png); height:940px;}
+div.qa{text-decoration:none; width: 308px; float:left;margin-top: 19px;margin-left: 19px;}
+div.qa:nth-of-type{width: 308px;}
+div.qa{text-decoration:none;width: 308px;}
+div.qe{text-decoration:none;background:#f5f5f5; border: 5px solid #ccc; border-radius: 5px; }
+
+
+
+
+
+
+
+
+
+
+
